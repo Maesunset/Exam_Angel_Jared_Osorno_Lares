@@ -21,6 +21,8 @@ void jugar()
 	do
 	{
 		system("cls");
+		RMenu = true;
+		salir = true;
 	cout << "----------Bienvenido a jugar----------" << endl;
 	cout << "cual es su rango maximo?" << endl;
 	cin >> max;
