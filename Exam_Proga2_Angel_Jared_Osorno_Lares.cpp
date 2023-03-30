@@ -7,8 +7,6 @@ int main()
 {
 	int menu;
 	bool salir = true;
-	do
-	{
 		cout << "---------------------Menu---------------------" << endl;
 		cout << " 1) Primer Parcial" << endl;
 		cout << " 2) Segundo Parcial" << endl;
@@ -20,6 +18,7 @@ int main()
 		{
 		// Primer parcial
 		case 1:
+			Exam_P1();
 			break;
 		// Segundo Parcial
 		case 2:
@@ -38,5 +37,4 @@ int main()
 			cout << "opcion invalida intente de nuevo" << endl;
 			break;
 		}
-	} while (salir);
 }
