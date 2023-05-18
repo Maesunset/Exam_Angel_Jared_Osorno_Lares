@@ -1,5 +1,6 @@
 #include <iostream>
 #include "Primer_Parcial.h"
+#include "Segundo_Parcial.h"
 
 using namespace std;
 
@@ -7,34 +8,35 @@ int main()
 {
 	int menu;
 	bool salir = true;
-		cout << "---------------------Menu---------------------" << endl;
-		cout << " 1) Primer Parcial" << endl;
-		cout << " 2) Segundo Parcial" << endl;
-		cout << " 3) Tercer Parcial" << endl;
-		cout << " 4) Cuarto Parcial" << endl;
-		cout << " 5) salir" << endl;
-		cin >> menu;
-		switch (menu)
-		{
+	cout << "---------------------Menu---------------------" << endl;
+	cout << " 1) Primer Parcial" << endl;
+	cout << " 2) Segundo Parcial" << endl;
+	cout << " 3) Tercer Parcial" << endl;
+	cout << " 4) Cuarto Parcial" << endl;
+	cout << " 5) salir" << endl;
+	cin >> menu;
+	switch (menu)
+	{
 		// Primer parcial
-		case 1:
-			Exam_P1();
-			break;
+	case 1:
+		Exam_P1();
+		break;
 		// Segundo Parcial
-		case 2:
-			break;
+	case 2:
+		Exam_p2();
+		break;
 		// Tercer Parcial
-		case 3:
-			break;
+	case 3:
+		break;
 		// Cuarto parcial
-		case 4:
-			break;
+	case 4:
+		break;
 		// Salir
-		case 5:
-			salir = false;
-			break;
-		default:
-			cout << "opcion invalida intente de nuevo" << endl;
-			break;
-		}
+	case 5:
+		salir = false;
+		break;
+	default:
+		cout << "opcion invalida intente de nuevo" << endl;
+		break;
+	}
 }
